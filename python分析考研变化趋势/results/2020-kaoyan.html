@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9a885ebf6f4e484b90272ecbeb02378c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9a885ebf6f4e484b90272ecbeb02378c" ></div>
+        
+</body>
+<script>    
+    
+            var map_9a885ebf6f4e484b90272ecbeb02378c = L.map(
+                "map_9a885ebf6f4e484b90272ecbeb02378c",
+                {
+                    center: [35.0, 120.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    preferCanvas: false,
+                    zoomControl: true,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0f429c0e6d754c2eb7c3883ea278e977 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9a885ebf6f4e484b90272ecbeb02378c);
+        
+    
+            var heat_map_0c6be21b02bb45e585d9e9953d8ed95e = L.heatLayer(
+                [[32.041546000000004, 118.76741000000001, 249.0], [30.584353999999998, 114.298569, 162.8], [38.045475, 114.50246399999999, 160.0], [43.26, 120.53, 119.081], [30.659461999999998, 104.065735, 174.815], [36.675808, 117.000923, 313.19], [28.194090000000003, 112.982277, 122.847], [36.03, 103.4, 62.3], [40.48, 111.46, 75.366], [25.040609, 102.71225, 55.0], [23.125176999999997, 113.28063999999999, 174.0], [22.82402, 108.320007, 53.8], [34.263161, 108.948021, 120.0], [45.756966, 126.64246399999999, 99.126], [34.757977000000004, 113.66541299999999, 290.0], [41.796768, 123.429092, 80.852], [29.533154999999997, 106.50495900000001, 79.248], [28.676493, 115.892151, 96.505]],
+                {"blur": 15, "max": 1.0, "maxZoom": 18, "minOpacity": 0.5, "radius": 25}
+            ).addTo(map_9a885ebf6f4e484b90272ecbeb02378c);
+        
+</script>
