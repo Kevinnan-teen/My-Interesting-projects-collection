@@ -1,0 +1,3 @@
+/home/nc/Git/Myprojects/My-Interesting-projects-collection/code_test/matplitlib_cpp_test/build/CMakeFiles/rebuild_cache.dir
+/home/nc/Git/Myprojects/My-Interesting-projects-collection/code_test/matplitlib_cpp_test/build/CMakeFiles/simple_test.dir
+/home/nc/Git/Myprojects/My-Interesting-projects-collection/code_test/matplitlib_cpp_test/build/CMakeFiles/edit_cache.dir
